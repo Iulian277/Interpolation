@@ -1,3 +1,0 @@
-function [P] = vandermonde(x, y)  % Input:   %        Coordonatele punctelor din suportul de interpolare (x, y)  % Output:  %        Coeficientii polinomului de interpolare Vandermonde    % Asigura dimensiunea (n, 1) pentru vectorii input   [n m] = size(x);  if (n == 1) % Vector linie    x = x';    n = m;  endif  
-  [p q] = size(y);  if (p == 1) % Vector linie    y = y';    p = q;  endif    % Constructie matrice A (matrice Vandermonde)  A = vander(x);
-    % Constructie vector coeficienti  P = zeros(n, 1);    % Rezolvam sistemul A * P_coef = y  [Q R] = qr(A);  z = Q' * y;  P = SST(R, z);  endfunction
