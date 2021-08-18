@@ -1,4 +1,4 @@
-function [P] = vandermonde(x, y) 
+function [P] = vandermonde(x, y)
   % Input: 
   %        Coordonatele punctelor din suportul de interpolare (x, y)
   % Output:
