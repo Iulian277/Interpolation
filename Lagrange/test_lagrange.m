@@ -18,6 +18,6 @@ function [] = test_lagrange()
   plot(x, y, 'o');
   hold off;
 
-  legend('Lagrange', 'Suportul interpolarii');
+  legend('Lagrange', 'Suportul interpolarii', 'location', 'northwest');
   
 endfunction

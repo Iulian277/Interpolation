@@ -19,7 +19,7 @@ function [] = test_newton()
   plot(x, y, 'o');
   hold off;
   
-  legend('Newton', 'Suportul interpolarii');
+  legend('Newton', 'Suportul interpolarii', 'location', 'northwest');
   
 endfunction  
   
