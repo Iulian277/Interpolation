@@ -1,7 +1,7 @@
 function [] = test_vandermonde()
   
   % Suportul de interpolare
-  x = [-3 0 2 5 7 11 12];
+  x = [-3 0 2 5 7 11 14];
   y = [5 -3 1 3 8 4 -10];
 
   % Polinomul de interpolare
@@ -19,6 +19,6 @@ function [] = test_vandermonde()
   plot(x, y, 'o');
   hold off;
   
-  legend('Vandermonde', 'Suportul interpolarii');
+  legend('Vandermonde', 'Suportul interpolarii', 'location', 'northwest');
 
 endfunction
