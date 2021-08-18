@@ -17,6 +17,7 @@ function [P] = vandermonde(x, y)
     p = q;
   endif
   
+  P = [];
   % Constructie matrice A (matrice Vandermonde)
   % TODO
   
