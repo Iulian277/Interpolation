@@ -1,10 +1,8 @@
 function [] = test_lagrange()
   
   % Suportul de interpolare
-  n = 8; % Numarul de puncte din suportul de interpolare
-  % n puncte random din intervalul [-10 10]
-  x = sort((rand(1, n) - 0.5) * 20);
-  y = (rand(1, n) - 0.5) * 20;
+  x = [-3 0 2 5 7 11 14];
+  y = [5 -3 1 3 8 4 -10];
   
   % Grafic puncte + polinom de interpolare obtinut
   xx = linspace(min(x), max(x)); % Generare 100 de puncte intre min(x)si max(x)
