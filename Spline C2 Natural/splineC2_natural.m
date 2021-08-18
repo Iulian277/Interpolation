@@ -27,8 +27,6 @@ function y0 = splineC2_natural(x, y, x0)
   % TODO
   
   % Setare coeficienti pentru vectorul de termeni liberi (g)
-  g(1) = 0;
-  g(n) = 0;
   for i = 2 : n - 1
     % TODO
   endfor
@@ -38,8 +36,6 @@ function y0 = splineC2_natural(x, y, x0)
   % TODO
   
   % aa - Diagonala principala
-  aa(1) = 1;
-  aa(n) = 1;
   for i = 2 : n-1
     % TODO
   endfor
