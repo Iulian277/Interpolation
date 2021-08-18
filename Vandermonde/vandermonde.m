@@ -1,5 +1,5 @@
 function [P] = vandermonde(x, y)
-  % Input: 
+  % Input: sada
   %        Coordonatele punctelor din suportul de interpolare (x, y)
   % Output:
   %        Coeficientii polinomului de interpolare Vandermonde
