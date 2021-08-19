@@ -62,8 +62,8 @@ function y0 = splineC2_natural(x, y, x0)
   for i = 1 : n-1
     if((x(i) <= x0) && (x0 <= x(i+1)))
       % TODO
-      % Hint: Pur si simplu, aplica formula de la forma generala a spline-ului cubic
-      % cu a(i), b(i), c(i), d(i) determinati anterior
+      % Hint: Pur si simplu, aplica formula de la forma generala
+      % a spline-ului cubic cu a(i), b(i), c(i), d(i) determinati anterior
       
       break;
     endif
