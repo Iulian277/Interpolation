@@ -7,6 +7,7 @@ function y0 = lagrange(x, y, x0)
   
   y0 = 0; % Valoarea polinomului Lagrange in punctul dorit x0
   L = ones(length(x), 1); % Multiplicator Lagrange
+  
   % Calculare polinom de interpolare Lagrange
   for i = 1 : length(x)
     
